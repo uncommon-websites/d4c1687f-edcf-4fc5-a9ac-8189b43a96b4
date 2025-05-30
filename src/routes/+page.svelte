@@ -7,19 +7,52 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CustomerCardHero from "$lib/components/layout/hero-sections/CustomerCardHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="/sample.png"
-	generating
+<CustomerCardHero
+    centered={true}
+    title="Customer ops made personal at scale"
+    subtitle="Lapel unifies all your data and automates customer interactions, so every support experience feels tailored—no matter the volume."
+    customers={[
+        {
+            name: "Maya Chen",
+            position: "Head of support",
+            imageSrc: "/generated/image-a-young-asian-woman-in-a-bright-office-w.webp"
+        },
+        {
+            name: "Jake Morales",
+            position: "Operations lead",
+            imageSrc: "/generated/image-a-latino-man-in-a-modern-startup-workspa.webp"
+        },
+        {
+            name: "Priya Nair",
+            position: "Customer experience manager",
+            imageSrc: "/generated/image-a-south-asian-woman-in-a-tech-office-env.webp"
+        },
+        {
+            name: "Tom Becker",
+            position: "Founder",
+            imageSrc: "/generated/image-a-white-man-in-a-modern-internet-startup.webp"
+        },
+        {
+            name: "Serena Wu",
+            position: "Customer success lead",
+            imageSrc: "/generated/image-an-east-asian-woman-customer-success-lea.webp"
+        }
+    ]}
 />
-<LogoScroller label="" generating />
+<LogoScroller
+	label="Trusted by industry leaders"
+	logoUrls={[
+		'https://logo.clearbit.com/notion.so',
+		'https://logo.clearbit.com/figma.com',
+		'https://logo.clearbit.com/stripe.com',
+		'https://logo.clearbit.com/zapier.com'
+	]}
+/>
 
 <Summary
-	generating
 	title="What we do"
 	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
 />
@@ -121,5 +154,5 @@
 	]}
 />
 
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction />
