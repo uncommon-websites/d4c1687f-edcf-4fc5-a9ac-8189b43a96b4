@@ -53,106 +53,95 @@
 />
 
 <Summary
-	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+  title="What we do"
+  text="Lapel unifies all your customer data and automates interactions, providing personal service at scale for modern internet businesses. Every customer feels known—no matter how fast you grow."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
-			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image:
-				"https://images.unsplash.com/photo-1571513722275-4b41940f54b8?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+			name: "Mateo Alvarez",
+			position: "Ops Manager",
+			company: "Shiplyne",
+			quote: "We used to spend hours every day stitching together orders and responding to tickets. Lapel gives us that time back—and lets us scale without new hires.",
+			image: "/generated/image-a-male-e-commerce-operations-manager-sta.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
-			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image:
-				"https://images.unsplash.com/photo-1600603405959-6d623e92445c?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+			name: "Harper Lowe",
+			position: "Customer Support Lead",
+			company: "Beamlane",
+			quote: "Lapel's proactive monitoring helps us spot and resolve issues before they hit our customers. It's taken so much risk—and stress—off the table.",
+			image: "/generated/image-a-female-customer-support-lead-in-a-mode.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
-			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image:
-				"https://images.unsplash.com/photo-1531123897727-8f129e1688ce?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+			name: "Leon Mensah",
+			position: "Founder",
+			company: "LedgerLift",
+			quote: "Our support costs shrank by nearly 40% in the first quarter alone. Lapel pays for itself, month after month.",
+			image: "/generated/image-a-male-fintech-startup-founder-sitting-a.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Do more for every customer"
+	subtitle="Three ways Lapel stands out for support teams"
 	features={[
 		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+			title: "Automation, the human way",
+			description: "Automate answers, routes, and updates—without losing the personal touch that matters."
 		},
 		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+			title: "All your context at hand",
+			description: "See every conversation, order, and data point in one place for faster, smarter support."
 		},
 		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+			title: "Ready for any scale",
+			description: "Scale service instantly with templates, plug-and-play integrations, and zero need for engineering."
 		}
 	]}
 />
 
 <UseCases
-	generating
 	title="Use Cases"
 	subtitle="Real-world applications for your business needs"
 	useCases={[
 		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings.",
-			image:
-				"https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
+			title: "Automate common support conversations",
+			description: "Let Lapel instantly resolve routine requests—so your team can focus on what customers really need.",
+			image: "/generated/image-a-customer-support-agent-with-a-warm-smi.webp",
 			link: {
-				href: "/use-cases/workflows",
+				href: "/use-cases/automated-support",
 				label: "Learn more"
 			}
 		},
 		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2488&q=80",
+			title: "Proactive, personal outreach",
+			description: "Send targeted messages at just the right moment to turn questions into loyalty and reduce churn.",
+			image: "/generated/image-a-collaborative-team-engaged-in-a-lively.webp",
 			link: {
-				href: "/use-cases/data-analysis",
-				label: "Explore analytics"
+				href: "/use-cases/proactive-outreach",
+				label: "Learn more"
 			}
 		},
 		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption.",
-			image:
-				"https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
+			title: "Insights at every agent's fingertips",
+			description: "Unify conversations, orders, and context so agents give fast, informed answers—every time.",
+			image: "/generated/image-a-business-team-in-a-modern-well-lit-off.webp",
 			link: {
-				href: "/use-cases/collaboration",
-				label: "See security features"
+				href: "/use-cases/agent-insights",
+				label: "Learn more"
 			}
 		}
 	]}
 />
 
 <AboutTeaser />
-<CallToAction />
+<CallToAction
+  title="Free your team to deliver world-class service"
+  subtitle="Lapel takes care of the busywork so your team can focus on what matters"
+  description="Lapel unifies support data and automates interactions so your team spends less time stitching systems together and more time helping customers."
+  imageSrc="/generated/image-a-cheerful-young-customer-support-lead-i.webp"
+  callsToAction={[{ href: "/get-started", label: "Request early access", variant: "primary" }, { href: "/contact", label: "Chat with us", variant: "secondary" }]}
+/>
+

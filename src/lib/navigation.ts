@@ -64,7 +64,29 @@ export const navigation: NavItem[] = [
 		showInFooter: true,
 		children: [
 			{
-				label: "Healthcare",
+				label: "Automate support",
+				href: "/use-cases/automated-support",
+				image: "/generated/image-a-customer-support-agent-with-a-warm-smi.webp",
+				description: "Instantly resolve common customer requests with Lapel’s automation, freeing your team to focus on high-impact conversations.",
+				showInNav: true,
+				showInFooter: true
+			},
+			{
+				label: "Proactive outreach",
+				href: "/use-cases/proactive-outreach",
+				image: "/generated/image-a-collaborative-team-engaged-in-a-lively.webp",
+				description: "Reach customers at exactly the right moment with personal messages that drive retention and delight.",
+				showInNav: true,
+				showInFooter: true
+			},
+			{
+				label: "Agent insights",
+				href: "/use-cases/agent-insights",
+				image: "/generated/image-a-business-team-in-a-modern-well-lit-off.webp",
+				description: "Give every agent the full picture—unified context, instant history, and actionable insights in every conversation.",
+				showInNav: true,
+				showInFooter: true
+			},
 				href: "/use-cases/healthcare",
 				image:
 					"https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?q=80&w=1920&auto=format&fit=crop",

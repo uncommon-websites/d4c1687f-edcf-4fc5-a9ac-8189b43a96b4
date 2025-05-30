@@ -23,22 +23,22 @@
 		"bg-primary-50 text-primary-600 dark:bg-primary-950 dark:text-primary-400 flex items-center justify-center rounded-full";
 
 	const benefits = [
-		{
-			title: "Flexible Work",
-			description: "Remote-first with flexible hours that respect work-life balance.",
-			icon: IconBriefcase
-		},
-		{
-			title: "Growth Opportunities",
-			description: "Continuous learning with mentorship and education stipends.",
-			icon: IconUsers
-		},
-		{
-			title: "Comprehensive Benefits",
-			description: "Health coverage, retirement plans, and generous paid time off.",
-			icon: IconHeart
-		}
-	];
+  {
+    title: "Early builder impact",
+    description: "Shape Lapel’s future and ship work that matters from day one.",
+    icon: IconBriefcase
+  },
+  {
+    title: "Real ownership",
+    description: "High autonomy, high trust. Influence product, culture, and company trajectory.",
+    icon: IconUsers
+  },
+  {
+    title: "Grow fast",
+    description: "Mentorship, personal development, and opportunities that scale with youyou won’t get lost in the shuffle.",
+    icon: IconHeart
+  }
+];
 
 	const openings: JobOpening[] = [
 		// Engineering
@@ -121,83 +121,85 @@
 	];
 
 	const employeeTestimonials = [
-		{
-			name: "Michael Chen",
-			position: "Senior Developer",
-			company: "Engineering Team",
-			quote:
-				"Working here has given me the opportunity to tackle challenging problems while maintaining a healthy work-life balance. The team culture is supportive and collaborative.",
-			image:
-				"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Priya Sharma",
-			position: "Product Designer",
-			company: "Design Team",
-			quote:
-				"The creative freedom and opportunity to influence product decisions makes this the best place I've ever worked. I'm constantly learning and growing.",
-			image:
-				"https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Marcus Johnson",
-			position: "Marketing Lead",
-			company: "Marketing Team",
-			quote:
-				"I joined three years ago and have grown tremendously. The leadership truly invests in your development and the work environment is both challenging and supportive.",
-			image:
-				"https://images.unsplash.com/photo-1531384441138-2736e62e0919?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		}
-	];
+  {
+    name: "Isabella Torres",
+    position: "Engineering Intern",
+    company: "Engineering Team",
+    quote:
+      "As an intern, I felt immediately welcome and supported. My manager took a genuine interest in my growth and I always had someone ready to answer my questions. The culture here is warm, collaborative, and people are excited to help each other succeed.",
+    image: "/generated/image-a-young-latina-woman-smiling-naturally-i.webp"
+  },
+  {
+    name: "David Brown",
+    position: "Product Manager",
+    company: "Product Team",
+    quote:
+      "At Lapel, my ideas actually matter. Leadership listens, supports your development, and gives you real ownership of your work. I’ve grown more in the past year than I thought possible—all with a team that truly cares.",
+    image: "/generated/image-a-black-man-in-his-30s-exuding-a-relaxed.webp"
+  },
+  {
+    name: "Mei Lin",
+    position: "VP of Marketing",
+    company: "Marketing Team",
+    quote:
+      "Everyone here is deeply committed to raising the bar, but always with balance and kindness. We push each other, celebrate together, and innovate without ego. I’m proud to work in a place where collaboration isn’t just a buzzword—it’s how we win.",
+    image: "/generated/image-an-asian-woman-vp-looking-stylish-and-co.webp"
+  }
+];
 
 	const processSteps = [
-		{
-			step: 1,
-			title: "Apply",
-			description:
-				"Submit your application through our careers portal with your resume and portfolio."
-		},
-		{
-			step: 2,
-			title: "Interview",
-			description: "Meet with our team to discuss your experience, skills, and career aspirations."
-		},
-		{
-			step: 3,
-			title: "Welcome aboard",
-			description: "Join our team and start your journey building the future with us."
-		}
-	];
+  {
+    step: 1,
+    title: "Say hello",
+    description: "Send a short note and let us know what interests you about Lapel. No resume required, but share one if you’d like."
+  },
+  {
+    step: 2,
+    title: "Let’s talk",
+    description: "We’ll have a casual call to learn more about each other, answer your questions, and talk through how you want to grow."
+  },
+  {
+    step: 3,
+    title: "Collaborate",
+    description: "You’ll complete a brief, relevant working session—either with us live or as a short take-home challenge (paid if applicable)."
+  },
+  {
+    step: 4,
+    title: "Final decision, quickly",
+    description: "We aim to go from first contact to a final answer in under two weeks. You’ll always know where you stand."
+  }
+];
 
 	const values = [
-		{
-			icon: IconHeart,
-			title: "Passion",
-			description: "We're driven by a shared passion for innovation and excellence."
-		},
-		{
-			icon: IconUsers,
-			title: "Collaboration",
-			description: "We believe in teamwork and collaboration to achieve great things."
-		},
-		{
-			icon: IconGlobe,
-			title: "Global Impact",
-			description: "We're committed to making a positive impact on the world."
-		}
-	];
+  {
+    icon: IconHeart,
+    title: "Customers first, always",
+    description: "We talk directly to users, respond quickly, and build what actually helps. Building alongside customers is our default."
+  },
+  {
+    icon: IconUsers,
+    title: "Hospitality is our moat",
+    description: "We believe genuine, human hospitality online is the last real competitive advantage. We bring care and attention to every interaction."
+  },
+  {
+    icon: IconGlobe,
+    title: "Small team, high trust",
+    description: "We stay lean, sweat the details, and take ownership over our work. Collaboration, humility, and deep trust aren’t just buzzwords—they’re required."
+  }
+];
 </script>
 
 <!-- Hero Section -->
 
 <SecondaryHero
-	title="Join our team of innovators"
-	subtitle="We're looking for passionate people to help us build the future of digital experiences. Discover your next opportunity with us."
+  title="Build the future of service"
+  subtitle="Small team. High trust. Early impact."
+  imageSrc="/generated/image-a-modern-tech-startup-office-with-a-dive.webp"
 />
 
 <!-- Why Join Us Section -->
 <section class={SECTION_BASE_CLASSES}>
-	<SectionHeader title="Why join us?" subtitle="Build your career while making an impact" />
+	<SectionHeader title="Why join us?" subtitle="Work alongside founders, own big problems, and help shape the future of customer operations." />
 
 	<div class="mt-16 grid gap-4 md:grid-cols-3">
 		{#each benefits as benefit}
@@ -209,6 +211,7 @@
 <!-- Culture Section -->
 <Culture {values} />
 
+<SectionHeader title="What our team is saying" subtitle="Hear from the people behind Lapel about why they love where they work." />
 <Testimonials testimonials={employeeTestimonials} />
 
 <!-- Application Process -->

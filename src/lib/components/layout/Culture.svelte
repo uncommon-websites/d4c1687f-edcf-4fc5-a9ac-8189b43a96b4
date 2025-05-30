@@ -38,13 +38,19 @@
 	<div
 		class="section-py section-px container mx-auto grid gap-8 [--gap:--spacing(8)] [--radius:var(--radius-2xl)]"
 	>
-		<SectionHeader title="Our culture." subtitle="The values that guide everything we do" />
+		<SectionHeader title="Our culture" subtitle="Small team. Big trust. Shared mission. These are the values we live every day." />
 
 		<div
 			class="grid gap-(--gap)"
 			style:grid-template-columns="repeat(auto-fit, minmax(280px, 1fr))"
 		>
-			{#each values as value, i}
+			{#each [
+				{ title: 'Customers first, always', description: 'We do the unscalable things—talking directly with users, texting when something breaks, shipping what actually helps them. Building alongside customers is our default.' },
+				{ title: 'Hospitality is our moat', description: 'We believe the last true competitive advantage online is genuine, human hospitality. We bring care, effort, and craft to every interaction.' },
+				{ title: 'Small teams, high trust', description: 'We stay lean, sweat the details, and take ownership over outcomes. Collaboration, humility, and deep trust are required here.' },
+				{ title: 'Bias for momentum', description: 'We move fast, learn directly from the market, and never hide behind process. Progress over optics, always.' },
+				{ title: 'No egos, just clear thinkers', description: 'We care more about humility, curiosity, and customer obsession than credentials or bravado. The best ideas win.' }
+			] as value, i}
 				<div
 					bind:this={cards[i]}
 					class="relative border-t border-gray-200 pt-4 dark:border-gray-900"

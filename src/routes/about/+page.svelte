@@ -26,18 +26,17 @@
 </script>
 
 <SecondaryHero
-	title="Solving world hunger"
-	subtitle="one step at a time"
-	imageSrc="https://source.unsplash.com/random/?people"
+    title="Hospitality, automated for scale"
+    subtitle="Lapel is a customer operations platform that unifies data and automates support to deliver personal, human service—without the manual work"
+    imageSrc="/mockups/airport-screen-1748608004061.png"
 />
 
 <!-- Story Section -->
 <Story
 	paragraphs={[
-		"We started in 2018 with a simple goal: make helpful tech that people actually need. While many chase profits, we chose to do things differently.",
-		"Beyond making good products, we care about doing the right thing, being kind to our planet, and making sure everyone can use what we build. That's our compass.",
-		"From day one, we've asked ourselves: 'Does this actually help people?' This question gets us through tough calls and shapes who we are. We're playing the long game here.",
-		"We think about how our work affects real people's lives. We build tech that brings people together, keeps your information safe, and treats everyone fairly. When we stick to these basics, good things happen."
+		"Lapel started with a frustration shared by many operators: customer conversations scattered across tools, missing context, and teams stuck copying info from one system to another. It felt inefficient, robotic—and worst of all, impersonal. We believed something better was possible. At companies we admired, great service didn’t just solve problems; it built loyalty. Hospitality, we realized, is still the greatest moat on the internet—and most teams are stuck without the tools to deliver it.",
+		"So we’re building Lapel: a customer operations platform that unifies your systems and automates routine tasks, so humans can stay focused on what matters—real conversations, handled with clarity and care. One shared view brings together billing, product usage, support data, and more. Automations take care of the busywork, letting your team run lean without losing the personal touch.",
+		"We’re a small team in San Francisco, working closely with early customers to get it right. While our current product is in early access, it’s already helping teams respond faster, stay in sync, and scale their customer support without compromising on quality. If you're building a company and want to serve customers like they matter at every step—let’s talk."
 	]}
 />
 
@@ -46,57 +45,29 @@
 
 <!-- StakeholderGrid Section -->
 <StakeholderGrid
-	stakeholderType="team"
-	title="Our team."
-	subtitle="Your partners in innovation."
-	stakeholders={[
-		{
-			name: "Alex Morgan",
-			position: "Founder & CEO",
-			bio: "Started the company with a vision to transform the industry through innovative solutions.",
-			image:
-				"https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Jamie Chen",
-			position: "Chief Design Officer",
-			bio: "Award-winning designer with a passion for creating intuitive and beautiful experiences.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=776&q=80"
-		},
-		{
-			name: "Taylor Wright",
-			position: "Head of Engineering",
-			bio: "Technology enthusiast focused on building scalable systems that make a difference.",
-			image:
-				"https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
-		}
-	]}
+  stakeholderType="team"
+  title="Our team."
+  subtitle="A small, focused group based in San Francisco."
+  stakeholders={[
+    {
+      name: "Founder",
+      position: "Founder",
+      bio: "Building Lapel to put hospitality first on the internet. Based in San Francisco, working with early customers.",
+      image: "/generated/image-a-professional-headshot-of-a-founder-cap.webp"
+    }
+  ]}
 />
 
-<StakeholderGrid
-	stakeholderType="investor"
-	title="Backed by the best."
-	subtitle="Point Nine, TSIC and others"
-	stakeholders={[
-		{
-			name: "Point Nine Capital",
-			image: "https://cdn.brandfetch.io/pointnine.com/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7"
-		},
-		{
-			name: "TSIC Ventures",
-			image: "https://cdn.brandfetch.io/tiny.vc/w/400/h/400/logo?c=1a2b3c4d5e"
-		},
-		{
-			name: "Sequoia Capital",
-			image: "https://cdn.brandfetch.io/sequoiacap.com/w/400/h/400/logo"
-		}
-	]}
-/>
+<!-- No investors to display -->
 
 <!-- CTA Section -->
 <CallToAction
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+  title="Help set a new standard for service online"
+  subtitle="Join our small high-trust team in San Francisco"
+  description="We're obsessed with making hospitality a competitive advantage for the modern internet. If you want to build with customers, sweat the details, and work alongside humble high-ownership teammates, let’s talk. Reach out to join, request early access, or partner with us."
+  imageSrc="/generated/image-a-friendly-and-diverse-san-francisco-sta.webp"
+  callsToAction={[
+    { href: "/early-access", label: "Request early access", variant: "primary" },
+    { href: "mailto:hello@lapel.com", label: "Join the team", variant: "secondary" }
+  ]}
 />
